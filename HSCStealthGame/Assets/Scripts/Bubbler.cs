@@ -20,11 +20,11 @@ public class Bubbler : MonoBehaviour {
 		anim = GetComponent<Animator>();
 	}
 
-	void OnTriggerEnter (Collider other){
+	void OnTriggerEnter2D (Collider2D other){
 		anim.SetBool("Bubbling", true);
 			}
 
-	void OnTriggerExit (Collider other){
+	void OnTriggerExit2D (Collider2D other){
 		anim.SetBool("Bubbling", false);
 	}
 }
