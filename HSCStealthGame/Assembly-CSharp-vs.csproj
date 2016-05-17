@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Bubbler.cs" />
      <Compile Include="Assets\Scripts\Bubbles.cs" />
+     <Compile Include="Assets\Scripts\ChangeScene.cs" />
      <Compile Include="Assets\Scripts\Controls.cs" />
      <Compile Include="Assets\Scripts\DestroyOffscreen.cs" />
      <Compile Include="Assets\Scripts\FlipperControls.cs" />
