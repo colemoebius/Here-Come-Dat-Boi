@@ -23,12 +23,15 @@ public class Spawner : MonoBehaviour {
 
 	}
 	void OnTriggerEnter2D(Collider2D other){
+		if (other.gameObject.tag == "Player") {
 
-		active = true;
+			active = true;
+		}
 	}
 	void OnTriggerExit2D(Collider2D other){
-		
-		active = false;
+		if (other.gameObject.tag == "Player") {
+			active = false;
+		}
 	}
 	IEnumerator EnemyGenerator(){
 

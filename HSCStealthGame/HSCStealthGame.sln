@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 
 Project("{DECD421D-2316-8AA3-06D2-DE4D081BE09D}") = "HSCStealthGame", "Assembly-CSharp.csproj", "{CFB3A53C-E182-719F-742C-E81F8C5D89F5}"
 EndProject
+Project("{DECD421D-2316-8AA3-06D2-DE4D081BE09D}") = "HSCStealthGame", "Assembly-UnityScript.unityproj", "{47C326A2-05BE-F8D0-6EA6-F3AA19B9AA3C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,11 +15,15 @@ Global
 		{CFB3A53C-E182-719F-742C-E81F8C5D89F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFB3A53C-E182-719F-742C-E81F8C5D89F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFB3A53C-E182-719F-742C-E81F8C5D89F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47C326A2-05BE-F8D0-6EA6-F3AA19B9AA3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47C326A2-05BE-F8D0-6EA6-F3AA19B9AA3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47C326A2-05BE-F8D0-6EA6-F3AA19B9AA3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47C326A2-05BE-F8D0-6EA6-F3AA19B9AA3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-														GlobalSection(MonoDevelopProperties) = preSolution
+																																GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
